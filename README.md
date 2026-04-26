@@ -2,7 +2,15 @@
 
 `ChatMathEquation` is a Tampermonkey userscript that helps you copy equations from AI chat interfaces such as ChatGPT, Gemini, and Claude.
 
-<img width="765" height="314" alt="image" src="https://github.com/user-attachments/assets/d602a081-0b18-4f5e-a720-3dfaa5bd2987" />
+<p align="center">
+  <img width="765" height="314" src="https://github.com/user-attachments/assets/d602a081-0b18-4f5e-a720-3dfaa5bd2987" />
+</p>
+
+<p align="center">
+  <a href="https://greasyfork.org/en/scripts/575451-chatmathequation">
+    <img src="https://img.shields.io/badge/INSTALL-GREASY%20FORK-red?style=for-the-badge&logo=javascript" alt="Install on Greasy Fork">
+  </a>
+</p>
 
 When you select a rendered equation with your mouse, the script shows a floating toolbar near the equation. From that toolbar, you can copy:
 
@@ -28,14 +36,6 @@ The current script metadata includes these matches:
 - `https://*.openai.com/*`
 
 You can expand the `@match` entries later if you want the script to run on more sites.
-
-## Installation
-
-1. Install a userscript manager such as Tampermonkey.
-2. Open Tampermonkey and create a new script.
-3. Replace the default template with the contents of `tampermonkey-equation-copy.user.js`.
-4. Save the script.
-5. Open or refresh ChatGPT, Gemini, Claude, or another matched site.
 
 ## Usage
 
